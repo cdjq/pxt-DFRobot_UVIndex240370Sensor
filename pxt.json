@@ -1,5 +1,6 @@
 {
     "name": "pxt-DFRobot_S12SD - 复制 - 复制 - 复制",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
