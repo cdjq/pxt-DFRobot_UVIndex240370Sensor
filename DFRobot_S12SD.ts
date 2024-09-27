@@ -6,7 +6,7 @@ enum dataType {
     //% block="RiskLevel"
     RiskLevel,
 }
-let I2CAddr = 0x23
+let I2CAddr = 0x23                   ///<I2C address
 let S12SD_INPUTREG_UVS_DATA = 0x06   ///<UVS data
 let S12SD_INPUTREG_UVS_INDEX = 0x07   ///<UVS index
 let S12SD_INPUTREG_RISK_LEVEL = 0x08   ///<RISK LEVEL 
@@ -19,7 +19,7 @@ namespace DFRobot_S12SD {
      * Read ultraviolet data
      * @param eType describe Data Type
      */
-    //% block
+    //% block="Read ultraviolet data"
     export function readUv(eType: dataType): number {
         let readBuffer
         let ret = 0
