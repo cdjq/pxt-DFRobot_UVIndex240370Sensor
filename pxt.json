@@ -12,8 +12,8 @@
         "main.ts",
         "README.md",
         "main.py",
-        "_locales/zh-cn/maqueenPlusV2-strings.json",
-        "_locales/zh-cn/maqueenPlusV2-jsdoc-strings.json",
+        "_locales/zh-cn/DFRobot_S12SD-strings.json",
+        "_locales/zh-cn/DFRobot_S12SD-jsdoc-strings.json",
         "DFRobot_S12SD.ts"
     ],
     "testFiles": [
