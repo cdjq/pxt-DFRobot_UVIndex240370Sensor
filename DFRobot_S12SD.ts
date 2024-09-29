@@ -19,7 +19,7 @@ namespace DFRobot_S12SD {
      * Read ultraviolet data
      * @param eType describe Data Type
      */
-    //% block="Read ultraviolet data"
+    //% block
     export function readUv(eType: dataType): number {
         let readBuffer
         let ret = 0
