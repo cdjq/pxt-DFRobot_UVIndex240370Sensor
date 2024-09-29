@@ -11,7 +11,7 @@ let S12SD_INPUTREG_UVS_DATA = 0x06   ///<UVS data
 let S12SD_INPUTREG_UVS_INDEX = 0x07   ///<UVS index
 let S12SD_INPUTREG_RISK_LEVEL = 0x08   ///<RISK LEVEL 
 /**
- * Custom blocks
+ * DFRobot_S12SD blocks
  */
 //% weight=100 color=#00F5FF icon="\uf185" block="DFRobot_S12SD"
 namespace DFRobot_S12SD {
@@ -42,5 +42,4 @@ namespace DFRobot_S12SD {
         }
         return ret
     }
-
 }
