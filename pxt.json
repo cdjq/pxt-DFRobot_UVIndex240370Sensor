@@ -1,5 +1,5 @@
 {
-    "name": "pxt-DFRobot_S12SD",
+    "name": "DFRobot_S12SD",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -12,9 +12,9 @@
         "main.ts",
         "README.md",
         "main.py",
+        "DFRobot_S12SD.ts",
         "_locales/zh-cn/DFRobot_S12SD-strings.json",
-        "_locales/zh-cn/DFRobot_S12SD-jsdoc-strings.json",
-        "DFRobot_S12SD.ts"
+        "_locales/zh-cn/DFRobot_S12SD-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
