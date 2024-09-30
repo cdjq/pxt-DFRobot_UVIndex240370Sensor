@@ -1,24 +1,59 @@
+# pxt-dfrobot_s12sd
 
-> 在 [https://cdjq.github.io/pxt-DFRobot_S12sd/](https://cdjq.github.io/pxt-DFRobot_S12sd/) 打开此页面
+[这是一款紫外线检测模块]: https://www.dfrobot.com.cn/goods-1114.html
 
-## 用作扩展
+## Methods
 
-此仓库可以作为 **插件** 添加到 MakeCode 中。
+```typescript
+/**
+* Read ultraviolet data
+* @param eType describe Data Type
+*/
+DFRobot_S12SD.readUv(eType: eDataType): number
+```
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **新项目**
-* 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/cdjq/pxt-DFRobot_S12sd** 并导入
+## Using this extension
 
-## 编辑此项目
+点击齿轮，然后点击拓展，输入URL **https://github.com/cdjq/pxt-DFRobot_S12sd** 添加拓展。
 
-在 MakeCode 中编辑此仓库。
+## Using the extension
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/cdjq/pxt-DFRobot_S12sd** 并点击导入
+这个拓展用到了紫外线传感器来获取数据。请确保 `micro:bit` 与传感器正确连接。
 
-#### 元数据（用于搜索、渲染）
+### Read Number
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("https://makecode.microbit.org/", "cdjq/pxt-DFRobot_S12sd");</script>
+```typescript
+value = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Value)
+index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Index)
+index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevel)
+```
+
+## Testing
+
+1. 编写测试程序
+
+```typescript
+let value = 0
+let index = 0
+let level = 0
+basic.forever(function () {
+    value = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Value)
+    serial.writeNumber(value)
+    index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Index)
+    serial.writeNumber(index)
+    level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevel)
+    serial.writeNumber(level)
+})
+```
+
+2. 下载到`micro:bit`中
+3. `micro:bit`通过拓展板与传感器相连，同时`mocro:bit`通过`USB`与电脑相连
+4. 把传感器放在有阳光或其他发出紫外线的区域，观察串口数据打印
+
+## License
+
+MIT
+
+## Supported targets
+
+for PXT/microbit (The metadata above is needed for package search.)
