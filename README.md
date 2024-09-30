@@ -1,5 +1,5 @@
 
-> 在 [https://zqiancreator.github.io/pxt-DFRobot_S12sd/](https://zqiancreator.github.io/pxt-DFRobot_S12sd/) 打开此页面
+> 在 [https://cdjq.github.io/pxt-DFRobot_S12sd/](https://cdjq.github.io/pxt-DFRobot_S12sd/) 打开此页面
 
 ## 用作扩展
 
@@ -8,7 +8,7 @@
 * 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * 点击 **新项目**
 * 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/zqiancreator/pxt-DFRobot_S12sd** 并导入
+* 搜索 **https://github.com/cdjq/pxt-DFRobot_S12sd** 并导入
 
 ## 编辑此项目
 
@@ -16,7 +16,7 @@
 
 * 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/zqiancreator/pxt-DFRobot_S12sd** 并点击导入
+* 粘贴 **https://github.com/cdjq/pxt-DFRobot_S12sd** 并点击导入
 
 #### 元数据（用于搜索、渲染）
 
