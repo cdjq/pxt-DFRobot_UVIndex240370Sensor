@@ -19,7 +19,7 @@ namespace DFRobot_UVIndex240370Sensor {
      * init UV Sensor I2C address as 0x23
      */
     //% block="init UV Sensor I2C address as 0x23"
-    export function initS12SD_I2C(): void {
+    export function initUVIndex240370Sensor_I2C(): void {
         return
     }
     /**
