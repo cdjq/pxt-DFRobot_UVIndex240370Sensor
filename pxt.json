@@ -1,5 +1,5 @@
 {
-    "name": "DFRobot_S12SD",
+    "name": "DFRobot_UVIndex240370Sensor",
     "version": "1.0.0",
     "description": "",
     "dependencies": {
@@ -12,9 +12,9 @@
         "main.ts",
         "README.md",
         "main.py",
-        "DFRobot_S12SD.ts",
-        "_locales/zh-cn/DFRobot_S12SD-strings.json",
-        "_locales/zh-cn/DFRobot_S12SD-jsdoc-strings.json"
+        "DFRobot_UVIndex240370Sensor.ts",
+        "_locales/zh-cn/DFRobot_UVIndex240370Sensor-strings.json",
+        "_locales/zh-cn/DFRobot_UVIndex240370Sensor-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
