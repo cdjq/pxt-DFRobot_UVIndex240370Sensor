@@ -23,9 +23,9 @@ DFRobot_S12SD.readUv(eType: eDataType): number
 ### Read Number
 
 ```typescript
-value = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Value)
-index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Index)
-index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevel)
+voltage = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.OriginalData)
+index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.IndexData)
+level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevelData)
 ```
 
 ## Testing
@@ -33,15 +33,15 @@ index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevel)
 1. 编写测试程序
 
 ```typescript
-let value = 0
+let voltage = 0
 let index = 0
 let level = 0
 basic.forever(function () {
-    value = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Value)
-    serial.writeNumber(value)
-    index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.Index)
+    voltage = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.OriginalData)
+    serial.writeNumber(voltage)
+    index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.IndexData)
     serial.writeNumber(index)
-    level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevel)
+    level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevelData)
     serial.writeNumber(level)
 })
 ```
