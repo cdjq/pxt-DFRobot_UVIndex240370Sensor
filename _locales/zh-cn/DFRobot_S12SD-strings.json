@@ -1,7 +1,8 @@
 {
-  "DFRobot_S12SD|block": "读取紫外线",
-  "DFRobot_S12SD.readUv|block": "读取紫外线 %eType",
-  "DFRobot_S12SD.eDataType.OriginalData|block": "电压值",
-  "DFRobot_S12SD.eDataType.RiskLevelData|block": "风险等级",
-  "DFRobot_S12SD.eDataType.IndexData|block": "指数"
+  "DFRobot_S12SD|block": "获取传感器数据",
+  "DFRobot_S12SD.initLTR390UV_I2C|block": "初始化LTR390UV I2C地址为0x1C",
+  "DFRobot_S12SD.readUv|block": "获取传感器的 %eType",
+  "DFRobot_S12SD.eDataType.OriginalData|block": "紫外线原始数据",
+  "DFRobot_S12SD.eDataType.RiskLevelData|block": "紫外线危害等级",
+  "DFRobot_S12SD.eDataType.IndexData|block": "紫外线指数"
 }
