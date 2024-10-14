@@ -1,7 +1,7 @@
 {
   "DFRobot_S12SD|block": "读取紫外线",
   "DFRobot_S12SD.readUv|block": "读取紫外线 %eType",
-  "DFRobot_S12SD.eDataType.Value|block": "强度",
-  "DFRobot_S12SD.eDataType.RiskLevel|block": "风险等级",
-  "DFRobot_S12SD.eDataType.Index|block": "指数"
+  "DFRobot_S12SD.eDataType.OriginalData|block": "电压值",
+  "DFRobot_S12SD.eDataType.RiskLevelData|block": "风险等级",
+  "DFRobot_S12SD.eDataType.IndexData|block": "指数"
 }
