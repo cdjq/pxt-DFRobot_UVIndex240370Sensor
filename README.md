@@ -1,4 +1,4 @@
-# pxt-dfrobot_s12sd
+# pxt-DFRobot_UVIndex240370Sensor
 
 [这是一款紫外线检测模块]: https://www.dfrobot.com.cn/goods-1114.html
 
@@ -8,12 +8,12 @@
 /**
  * init LTR390UV I2C address as 0x1C
  */
-DFRobot_S12SD.initLTR390UV_I2C(): void
+DFRobot_UVIndex240370Sensor.initLTR390UV_I2C(): void
 /**
 * Read ultraviolet data
 * @param eType describe Data Type
 */
-DFRobot_S12SD.readUv(eType: eDataType): number
+DFRobot_UVIndex240370Sensor.readUv(eType: eDataType): number
 ```
 
 ## Using this extension
