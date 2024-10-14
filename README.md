@@ -18,7 +18,7 @@ DFRobot_S12SD.readUv(eType: eDataType): number
 
 ## Using this extension
 
-点击齿轮，然后点击拓展，输入URL **https://github.com/cdjq/pxt-DFRobot_S12sd** 添加拓展。
+点击齿轮，然后点击拓展，输入URL **https://github.com/cdjq/pxt-DFRobot_UVIndex240370Sensor** 添加拓展。
 
 ## Using the extension
 
@@ -27,9 +27,9 @@ DFRobot_S12SD.readUv(eType: eDataType): number
 ### Read Number
 
 ```typescript
-voltage = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.OriginalData)
-index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.IndexData)
-level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevelData)
+voltage = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.OriginalData)
+index = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.IndexData)
+level = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.RiskLevelData)
 ```
 
 ## Testing
@@ -41,11 +41,11 @@ let voltage = 0
 let index = 0
 let level = 0
 basic.forever(function () {
-    voltage = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.OriginalData)
+    voltage = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.OriginalData)
     serial.writeNumber(voltage)
-    index = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.IndexData)
+    index = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.IndexData)
     serial.writeNumber(index)
-    level = DFRobot_S12SD.readUv(DFRobot_S12SD.eDataType.RiskLevelData)
+    level = DFRobot_UVIndex240370Sensor.readUv(DFRobot_UVIndex240370Sensor.eDataType.RiskLevelData)
     serial.writeNumber(level)
 })
 ```
