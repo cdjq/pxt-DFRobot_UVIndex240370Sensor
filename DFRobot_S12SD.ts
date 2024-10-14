@@ -16,10 +16,10 @@ namespace DFRobot_S12SD {
         RiskLevelData,
     }
     /**
-     * init LTR390UV I2C address as 0x1C
+     * init UV Sensor I2C address as 0x23
      */
-    //% block="init LTR390UV I2C address as 0x1C"
-    export function initLTR390UV_I2C(): void {
+    //% block="init UV Sensor I2C address as 0x23"
+    export function initS12SD_I2C(): void {
         return
     }
     /**
