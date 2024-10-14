@@ -1,6 +1,5 @@
 {
     "DFRobot_S12SD": "",
-    "DFRobot_S12SD.readUv": "读取紫外线数据"
     "DFRobot_S12SD.initLTR390UV_I2C": "初始化LTR390UV I2C地址",
     "DFRobot_S12SD.readUv": "获取传感器数据"
 }
