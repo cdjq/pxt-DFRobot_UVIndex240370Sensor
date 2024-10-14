@@ -6,6 +6,10 @@
 
 ```typescript
 /**
+ * init LTR390UV I2C address as 0x1C
+ */
+DFRobot_S12SD.initLTR390UV_I2C(): void
+/**
 * Read ultraviolet data
 * @param eType describe Data Type
 */
