@@ -8,12 +8,12 @@ let S12SD_INPUTREG_RISK_LEVEL = 0x08   ///<RISK LEVEL
 //% weight=100 color=#00F5FF icon="\uf185" block="DFRobot_S12SD"
 namespace DFRobot_S12SD {
     export enum eDataType {
-        //% block="Value"
-        Value,
-        //% block="Index"
-        Index,
-        //% block="RiskLevel"
-        RiskLevel,
+        //% block="OriginalData"
+        OriginalData,
+        //% block="IndexData"
+        IndexData,
+        //% block="RiskLevelData"
+        RiskLevelData,
     }
     /**
      * Read ultraviolet data
@@ -24,17 +24,17 @@ namespace DFRobot_S12SD {
         let readBuffer
         let ret = 0
         switch (eType) {
-            case eDataType.RiskLevel:
+            case eDataType.RiskLevelData:
                 pins.i2cWriteNumber(I2CAddr, S12SD_INPUTREG_RISK_LEVEL, NumberFormat.Int8LE)
                 readBuffer = pins.i2cReadBuffer(I2CAddr, 2)
                 ret = ((readBuffer[1] << 8) | readBuffer[0]) & 0xFFFF
                 break
-            case eDataType.Value:
+            case eDataType.OriginalData:
                 pins.i2cWriteNumber(I2CAddr, S12SD_INPUTREG_UVS_DATA, NumberFormat.Int8LE)
                 readBuffer = pins.i2cReadBuffer(I2CAddr, 2)
                 ret = ((readBuffer[1] << 8) | readBuffer[0]) & 0xFFFF
                 break
-            case eDataType.Index:
+            case eDataType.IndexData:
                 pins.i2cWriteNumber(I2CAddr, S12SD_INPUTREG_UVS_INDEX, NumberFormat.Int8LE)
                 readBuffer = pins.i2cReadBuffer(I2CAddr, 2)
                 ret = ((readBuffer[1] << 8) | readBuffer[0]) & 0xFFFF
