@@ -16,6 +16,13 @@ namespace DFRobot_S12SD {
         RiskLevelData,
     }
     /**
+     * init LTR390UV I2C address as 0x1C
+     */
+    //% block="init LTR390UV I2C address as 0x1C"
+    export function initLTR390UV_I2C(): void {
+        return
+    }
+    /**
      * Read ultraviolet data
      * @param eType describe Data Type
      */
