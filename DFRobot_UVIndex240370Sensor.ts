@@ -5,7 +5,7 @@ let S12SD_INPUTREG_RISK_LEVEL = 0x08   ///<RISK LEVEL
 /**
  * DFRobot_UVIndex240370Sensor blocks
  */
-//% weight=100 color=#00F5FF icon="\uf185" block="DFRobot_UVIndex240370Sensor"
+//% weight=100 color=#00F5FF icon="\uf185" block="UVIndex240370Sensor"
 namespace DFRobot_UVIndex240370Sensor {
     export enum eDataType {
         //% block="OriginalData"

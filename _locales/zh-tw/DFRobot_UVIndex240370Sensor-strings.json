@@ -1,0 +1,8 @@
+{
+  "DFRobot_UVIndex240370Sensor|block": "UVIndex240370Sensor",
+  "DFRobot_UVIndex240370Sensor.initUVIndex240370Sensor_I2C|block": "初始化240370紫外綫指數傳感器I2C地址為0x23",
+  "DFRobot_UVIndex240370Sensor.readUv|block": "獲取傳感器的 %eType",
+  "DFRobot_UVIndex240370Sensor.eDataType.OriginalData|block": "紫外綫原始數據",
+  "DFRobot_UVIndex240370Sensor.eDataType.RiskLevelData|block": "紫外綫危害等級",
+  "DFRobot_UVIndex240370Sensor.eDataType.IndexData|block": "紫外綫指數"
+}

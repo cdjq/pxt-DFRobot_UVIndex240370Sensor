@@ -1,0 +1,5 @@
+{
+    "DFRobot_UVIndex240370Sensor": "",
+    "DFRobot_UVIndex240370Sensor.initUVIndex240370Sensor_I2C": "初始化240370紫外綫指數傳感器I2C地址",
+    "DFRobot_UVIndex240370Sensor.readUv": "UVIndex240370Sensor"
+}
