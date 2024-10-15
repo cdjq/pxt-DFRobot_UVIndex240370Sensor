@@ -14,7 +14,9 @@
         "main.py",
         "DFRobot_UVIndex240370Sensor.ts",
         "_locales/zh-cn/DFRobot_UVIndex240370Sensor-strings.json",
-        "_locales/zh-cn/DFRobot_UVIndex240370Sensor-jsdoc-strings.json"
+        "_locales/zh-cn/DFRobot_UVIndex240370Sensor-jsdoc-strings.json",
+        "_locales/zh-tw/DFRobot_UVIndex240370Sensor-strings.json",
+        "_locales/zh-tw/DFRobot_UVIndex240370Sensor-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
